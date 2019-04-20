@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM redhat-openjdk18-openshift
 VOLUME /tmp
 EXPOSE 8080
 ARG JAR_FILE=/spring-boot-starter-0.0.1-SNAPSHOT.jar
